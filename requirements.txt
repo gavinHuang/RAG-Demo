@@ -1,0 +1,16 @@
+# selenium 
+# webdriver_manager
+openai
+langchain
+llama_index
+pandas
+huggingface
+streamlit
+transformers
+sentence-transformers
+ipykernel
+python-dotenv
+#visual embedding
+# matplotlib 
+# seaborn
+# mplcursors

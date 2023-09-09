@@ -1,0 +1,10 @@
+.vscode
+.pytest_cache
+.ipynb_checkpoints
+__pycache__
+*.html
+.env
+data
+exps
+snapshots
+storage

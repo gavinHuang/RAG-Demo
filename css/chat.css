@@ -1,0 +1,35 @@
+.user-message-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.bot-message-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.user-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.user-message {
+    background-color: #e5f3ff;
+    padding: 10px;
+    border-radius: 8px;
+}
+.bot-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bot-message {
+    background-color: #d3e8d6;
+    padding: 10px;
+    border-radius: 8px;
+}
