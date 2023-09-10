@@ -27,16 +27,16 @@ def handle_enter():
     st.session_state.user_input = ""
     
 @st.cache_resource
-def get_query_engine():
-    from llama_index_bot import load_index
-    return load_index()
+def get_bot():
+    from llama_index_bot import load_bot
+    return load_bot()
    
 def generate_bot_response(user_input):
     print(f"input: {user_input}")
-    query_engine=get_query_engine()
-    response = query_engine.chat(user_input)
-    print(response.response)
-    return response.response
+    bot=get_bot()
+    response = bot.run(user_input)
+    # print(response)
+    return response
 
 def display_mssage(chat_history):
     for chat in chat_history:
