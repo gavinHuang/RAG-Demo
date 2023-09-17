@@ -22,9 +22,13 @@ Product Name|$39.98|https://the_url_is_replaced|product description
     ```text
     OPENAI_API_KEY=your_key_here
     ```
-* tailer your prompt: TODO
-* 
+
 Simply run:
 ```bash
 streamlit run ui.py
 ```
+
+## TODO:
+* tailer prompt to suite use case
+* remove lengthy prompt waste
+

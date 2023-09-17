@@ -34,9 +34,9 @@ def get_bot():
 def generate_bot_response(user_input):
     print(f"input: {user_input}")
     bot=get_bot()
-    response = bot.run(user_input)
+    # response = bot.run(user_input)
     # print(response)
-    return response
+    return bot.chat(user_input).response
 
 def display_mssage(chat_history):
     for chat in chat_history:
